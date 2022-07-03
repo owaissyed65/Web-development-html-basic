@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Forms</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+           <input type="text" name="myname" id="name">
+        </div><br>
+        <label for="id">ID</label>
+        <div>
+            <input type="text" name="Id" id="id">
+        </div><br>
+        <div>
+            Email : <input type="text" name="Email">
+        </div><br>
+        <label for="mydate">Date :</label>
+        <div>
+             <input type="date" name="mydate" id="mydate">
+        </div><br>
+        <div>
+            Bonus : <input type="number" name="Mybonus">
+        </div><br>
+        <label for="checkbox">Are you eligible ?</label>
+        <div>
+            <input type="checkbox" name="mycheckbox" id="checkbox">
+        </div><br>
+        <div>
+            Gender : Male <input type="radio" name="mygender">
+            Female <input type="radio" name="mygender">
+            Other <input type="radio" name="mygender">
+        </div><br>
+        <label for="car">Car</label>
+        <div>
+            <select name="Mycar" id="car">
+                <option value="Suzuki Mehran">Mehran</option>
+                <option value="Suzuki Swift" selected>Swift</option>
+            </select>
+        </div><br>
+        <label for="Age">Age</label>
+        <div>
+            <select name="Age" id="Age">
+                <option value="18+">18+</option>
+                <option value="18">equal to 18</option>
+                <option value="less than 18">less than 18</option>
+            </select>
+        </div>
+        <div>
+            <input type="range" name="myrange" >
+            <input type="search" name="mysearch">
+            <input type="url" name="myurl">
+            <input type="image" src="https://images.unsplash.com/photo-1485550409059-9afb054cada4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="Error">
+        </div>
+        <label for="text">Write about yourself:</label>
+        <div>
+            <br><textarea rows="20" cols="50" id="text"></textarea>
+            </div><br>
+        <div>
+        <input type="button" value="submit now">
+        </div><br>
+        <div>
+            <input type="reset" value="Reset now">
+        </div>
+        
+    </form>
+
+</body>
+
+</html>
